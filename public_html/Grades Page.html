@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
+    <link href="../vendor/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="Global Style.css" type="text/css"/>
     <link rel="stylesheet" href="Grades Page Style.css" type="text/css"/>
     <script src="Grades Script.js"></script>
@@ -10,6 +11,16 @@
 <body>
     <div class="sidebar">
         <div class="sidebarbuttons">
+            <form action="">
+                <select id="users">
+                    <option id="michael">
+                        Michael Remediakis
+                    </option>
+                    <option id="john">
+                        John Cox
+                    </option>
+                </select>
+            </form>
             <form action="">
                 <input type="button" id="assignments" value="Assignments">
             </form>
@@ -26,6 +37,11 @@
                 <input type="button" id="logout" value="Log Out">
             </a>
         </div>
+    </div>
+    <div class="notification">
+        <button type="button" id="exitbutton">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
     </div>
 </body>
 </html>
