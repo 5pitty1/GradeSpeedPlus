@@ -7,6 +7,9 @@
     left: -19vw;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
     border-right: solid .3vw rgba(0,0,0,.5);
     z-index: 10;
 }
@@ -39,12 +42,6 @@
     color: rgba(255,255,255,.6);
     font-size: 2vw;
     font-family: "Arial", sans-serif;
-    text-align: center;
-
-}
-
-option {
-    text-align: center;
 }
 
 #users:focus {
@@ -65,12 +62,20 @@ input:hover {
 .notification {
     position: fixed;
     height: 4vw;
-    width: 100vw;
+    width: 99vw;
     top: -4vw;
+    right: 0;
     background-color: rgba(0,0,0, .3);
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out, width .3s ease-in-out;
+    -moz-transition: all .2s ease-in-out, width .3s ease-in-out;
+    -ms-transition: all .2s ease-in-out, width .3s ease-in-out;
+    -o-transition: all .2s ease-in-out, width .3s ease-in-out;
+    transition: all .2s ease-in-out, width .3s ease-in-out;
     border-bottom: solid .3vw rgba(0,0,0,.5);
+}
+
+.notification.shrink {
+    width: 80vw;
 }
 
 .notification.enter {
@@ -80,7 +85,7 @@ input:hover {
 #exitbutton {
     border: none;
     background-color: transparent;
-    color: blue;
+    color: #808080;
     float: right;
 }
 
