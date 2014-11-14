@@ -15,7 +15,12 @@
 }
 
 .sidebar:hover {
-    transform: translate(19vw, 0);
+    left: 0vw;
+}
+
+#kleinlogo {
+    text-align: center;
+    height: 20vh;
 }
 
 .sidebarbuttons {
@@ -32,6 +37,9 @@
     color: rgba(255,255,255,.6);
     font-size: 2.5vw;
     font-family: "Arial", sans-serif;
+    border: solid #000000 1px;
+    border-left: none;
+    border-right: none;
 }
 
 #users{
@@ -42,6 +50,11 @@
     color: rgba(255,255,255,.6);
     font-size: 2vw;
     font-family: "Arial", sans-serif;
+}
+
+#users option {
+    display: table;
+    margin: 0 auto;
 }
 
 #users:focus {
@@ -79,7 +92,7 @@ input:hover {
 }
 
 .notification.enter {
-    transform: translate(0,4vw);
+    top: 0;
 }
 
 #exitbutton {
