@@ -72,7 +72,7 @@ input:hover {
 
 /*----------------Notification Bar----------------------*/
 
-.notification {
+.notificationbar {
     position: fixed;
     height: 4vw;
     width: 99vw;
@@ -87,11 +87,11 @@ input:hover {
     border-bottom: solid .3vw rgba(0,0,0,.5);
 }
 
-.notification.shrink {
+.notificationbar.shrink {
     width: 80vw;
 }
 
-.notification.enter {
+.notificationbar.enter {
     top: 0;
 }
 
@@ -104,4 +104,62 @@ input:hover {
 
 #exitbutton:focus {
     outline: none;
+}
+
+.notifications {
+    text-align: center;
+    font-family: "Calibri", sans-serif;
+    font-size: 3vw;
+    color: rgba(200, 200, 200, .8);
+}
+
+/*----------------Classes----------------------*/
+
+.classescontainer {
+    position: relative;
+    width: 91vw;
+    height: 41vh;
+    margin: 0 auto;
+    text-align: center;
+    top: 10vh;
+    border-spacing: 3vw;
+    border-collapse: separate;
+}
+
+.classescontainer tr td {
+    border: solid .3vw rgba(0, 0, 0, .5);
+    width: 19vw;
+    height: 16vw;
+    background-color: rgba(0,0,0,.3);
+    font-size: 3vw;
+}
+
+.classescontainer2 {
+    position: relative;
+    width: 80vw;
+    top: 10vh;
+    margin: 0 auto;
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    -ms-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.classescontainer2.shrink, classcontainer2 ul li.shrink {
+    width: 61vw;
+}
+
+.classescontainer2 ul li {
+    border: solid .3vw rgba(0, 0, 0, .5);
+    width: 80vw;
+    height: 6vw;
+    background-color: rgba(0,0,0,.3);
+    font-size: 3vw;
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    -ms-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+
 }

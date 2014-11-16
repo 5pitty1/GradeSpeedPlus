@@ -1,11 +1,13 @@
 
 $(document).ready(function() {
-    $(".notification").addClass("enter");
+  //  $(".notificationbar").addClass("enter");
     $('#exitbutton').click(function () {
-        $('.notification').removeClass("enter");
+        $('.notificationbar').removeClass("enter");
     });
     $('.sidebar').hover(function() {
-        $('.notification').toggleClass("shrink");
+        $('.notificationbar').toggleClass("shrink");
+        $('.classcontainer2').toggleClass("shrink");
+        $('.classcontainer2 ul li').toggleClass("shrink");
     });
 });
 
