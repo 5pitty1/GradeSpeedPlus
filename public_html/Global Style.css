@@ -56,7 +56,6 @@ body {
     background-color: transparent;
 }
 
-input:focus {
+:focus {
     outline: 0;
 }
-

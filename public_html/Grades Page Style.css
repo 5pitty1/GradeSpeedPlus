@@ -79,11 +79,11 @@ input:hover {
     top: -4vw;
     right: 0;
     background-color: rgba(0,0,0, .3);
-    -webkit-transition: all .2s ease-in-out, width .3s ease-in-out;
-    -moz-transition: all .2s ease-in-out, width .3s ease-in-out;
-    -ms-transition: all .2s ease-in-out, width .3s ease-in-out;
-    -o-transition: all .2s ease-in-out, width .3s ease-in-out;
-    transition: all .2s ease-in-out, width .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out, width .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out, width .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out, width .3s ease-in-out;
+    -o-transition: all .3s ease-in-out, width .3s ease-in-out;
+    transition: all .3s ease-in-out, width .3s ease-in-out;
     border-bottom: solid .3vw rgba(0,0,0,.5);
 }
 
@@ -117,49 +117,54 @@ input:hover {
 
 .classescontainer {
     position: relative;
-    width: 91vw;
-    height: 41vh;
-    margin: 0 auto;
-    text-align: center;
+    width: 95vw;
     top: 10vh;
-    border-spacing: 3vw;
+    margin: 0 auto;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+table {
     border-collapse: separate;
 }
 
-.classescontainer tr td {
-    border: solid .3vw rgba(0, 0, 0, .5);
-    width: 19vw;
-    height: 16vw;
+#classes {
+    border: solid .2vw rgba(0, 0, 0, .5);
+    width: 95vw;
     background-color: rgba(0,0,0,.3);
-    font-size: 3vw;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font-family: "Calibri", sans-serif;
+    color: rgba(255, 255, 255, .6);
+    font-size: 2vw;
 }
 
-.classescontainer2 {
-    position: relative;
-    width: 80vw;
-    top: 10vh;
-    margin: 0 auto;
-    -webkit-transition: width .3s ease-in-out;
-    -moz-transition: width .3s ease-in-out;
-    -ms-transition: width .3s ease-in-out;
-    -o-transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
+#classes td {
+    height: 5vw;
+    vertical-align: middle;
+    border: solid .2vw rgba(0, 0, 0, .5);
 }
 
-.classescontainer2.shrink, classcontainer2 ul li.shrink {
-    width: 61vw;
+#classes td:not(:nth-child(1)) {
+    text-align: center;
+    width: 6vw;
 }
 
-.classescontainer2 ul li {
-    border: solid .3vw rgba(0, 0, 0, .5);
-    width: 80vw;
-    height: 6vw;
-    background-color: rgba(0,0,0,.3);
-    font-size: 3vw;
-    -webkit-transition: width .3s ease-in-out;
-    -moz-transition: width .3s ease-in-out;
-    -ms-transition: width .3s ease-in-out;
-    -o-transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
+#classes td:nth-child(1) {
+    width: 25vw;
+}
 
+#classes thead tr:nth-child(1) {
+    text-align: center;
+}
+
+#classes.small {
+    transform: translate(19vw, 0);
+    width: 77vw;
 }
