@@ -1,3 +1,14 @@
+/*Background Designs:
+  Colorful - My Creation
+  Sunshine - http://4vector.com/free-vector/beautiful-trend-background-05-vector-15375
+  Green - http://www.psdgraphics.com/file/lime-color-background.jpg
+  Purple - http://wonderfulengineering.com/35-hd-background-wallpapers-for-desktop-free-download/
+  Dark - http://wallpaperswide.com/dark_background_2-wallpapers.html
+*/
+
+
+
+
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
@@ -48,7 +59,7 @@ table {
 
 html {
     height: 100vh;
-    background: url(Images/Background.jpg);
+    background: url(Images/Coloful%20Design.jpg);
     background-size: cover;
 }
 
@@ -58,4 +69,11 @@ body {
 
 :focus {
     outline: 0;
+}
+
+.noselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
