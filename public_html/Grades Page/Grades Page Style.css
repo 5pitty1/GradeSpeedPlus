@@ -1,0 +1,55 @@
+/*----------------Classes----------------------*/
+
+.classescontainer {
+    position: relative;
+    width: 95vw;
+    top: 10vh;
+    margin: 0 auto;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+table {
+    border-collapse: separate;
+}
+
+#classes {
+    border: solid .2vw rgba(0, 0, 0, .5);
+    width: 95vw;
+    background-color: rgba(0,0,0,.3);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font-family: "Calibri", sans-serif;
+    color: rgba(255, 255, 255, .6);
+    font-size: 2vw;
+}
+
+#classes td {
+    height: 5vw;
+    vertical-align: middle;
+    border: solid .2vw rgba(0, 0, 0, .5);
+}
+
+#classes td:not(:nth-child(1)) {
+    text-align: center;
+    width: 6vw;
+}
+
+#classes td:nth-child(1) {
+    width: 25vw;
+}
+
+#classes thead tr:nth-child(1) {
+    text-align: center;
+}
+
+#classes.small {
+    transform: translate(19vw, 0);
+    width: 77vw;
+}

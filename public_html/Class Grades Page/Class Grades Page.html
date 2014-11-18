@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <link href="../../vendor/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="../../vendor/jqueryui/css/base/jquery-ui.css">
+        <script src="../../vendor/jquery/jquery.js"></script>
+        <script src="../../vendor/jqueryui/jquery-ui.js"></script>
+        <link rel="stylesheet" href="../Global%20Style.css" type="text/css"/>
+        <link rel="stylesheet" href="Grades%20Page%20Style.css" type="text/css"/>
+        <script src="../Global%20Script.js"></script>
+        <title>GradeSpeedPlus</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="sidebar">
+            <div id="kleinlogo">
+                <img src="../Images/KleinISD%20Logo.png" style="width: 16vw; height: 20vh;">
+            </div>
+            <div class="sidebarbuttons">
+                <form action="">
+                    <select id="users" class="text-center">
+                        <option id="michael" class="text-center">
+                            Michael Remediakis
+                        </option>
+                        <option id="john" class="text-center">
+                            John Cox
+                        </option>
+                    </select>
+                </form>
+                <br>
+                <a href="">
+                    <input type="button" id="assignments" value="Assignments">
+                </a>
+                <a href="../Grades Page/Grades%20Page.html">
+                    <input type="button" id="grades" value="Grades">
+                </a>
+                <a href="">
+                    <input type="button" id="attendance" value="Attendance">
+                </a>
+                <a href="">
+                    <input type="button" id="settings" value="Settings">
+                </a>
+                <a href="../Login Page/Login%20Page.html">
+                    <input type="button" id="logout" value="Log Out">
+                </a>
+            </div>
+        </div>
+        <div class="notificationbar">
+            <button type="button" id="exitbutton">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+            </button>
+            <p class="notifications">A new grade has been added: Stucky - Scholarship Essay : 100%</p>
+        </div>
+        <div class="gradescontainer">
+            <div id="homework"></div>
+            <div id="major"></div>
+            <div id="minor"></div>
+            <div id="nonGraded"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <link href="../../vendor/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="../../vendor/jqueryui/css/base/jquery-ui.css">
+        <script src="../../vendor/jquery/jquery.js"></script>
+        <script src="../../vendor/jqueryui/jquery-ui.js"></script>
+        <link rel="stylesheet" href="../Global%20Style.css" type="text/css"/>
+        <link rel="stylesheet" href="Grades%20Page%20Style.css" type="text/css"/>
+        <script src="../Global%20Script.js"></script>
+        <script src="Grades%20Script.js"></script>
+        <title>GradeSpeedPlus</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="sidebar">
+            <div id="kleinlogo">
+                <img src="../Images/KleinISD%20Logo.png" style="width: 16vw; height: 20vh;">
+            </div>
+            <div class="sidebarbuttons">
+                <form action="">
+                    <select id="users" class="text-center">
+                        <option id="michael" class="text-center">
+                            Michael Remediakis
+                        </option>
+                        <option id="john" class="text-center">
+                            John Cox
+                        </option>
+                    </select>
+                </form>
+                <br>
+                <form action="">
+                    <input type="button" id="assignments" value="Assignments">
+                </form>
+                <form action="">
+                    <input type="button" id="grades" value="Grades">
+                </form>
+                <form action="">
+                    <input type="button" id="attendance" value="Attendance">
+                </form>
+                <form action="">
+                    <input type="button" id="settings" value="Settings">
+                </form>
+                <a href="../Login Page/Login%20Page.html">
+                    <input type="button" id="logout" value="Log Out">
+                </a>
+            </div>
+        </div>
+        <div class="notificationbar">
+            <button type="button" id="exitbutton">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+            </button>
+            <p class="notifications">A new grade has been added: Stucky - Scholarship Essay : 100%</p>
+        </div>
+
+        <div class="classescontainer">
+            <table id="classes">
+                <thead>
+                    <tr>
+                        <td scope="col">Class</td>
+                        <td scope="col">Period</td>
+                        <td scope="col">1st</td>
+                        <td scope="col">2nd</td>
+                        <td scope="col">3rd</td>
+                        <td scope="col">Exam 1</td>
+                        <td scope="col">Sem 1</td>
+                        <td scope="col">4th</td>
+                        <td scope="col">5th</td>
+                        <td scope="col">6th</td>
+                        <td scope="col">Exam 2</td>
+                        <td scope="col">Sem 2</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>FRENCH LANG AP</td>
+                    <td>1</td>
+                    <td class="F">45</td>
+                    <td class="F">64</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>ENGLISH 4 AP</td>
+                    <td>2</td>
+                    <td class="C">76</td>
+                    <td class="C">77</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>IND STUDY EMERG TECH</td>
+                    <td>3</td>
+                    <td class="A">100</td>
+                    <td class="A">100</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>AP PHYSICS 2</td>
+                    <td>4</td>
+                    <td class="B">85</td>
+                    <td class="B">86</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>TECH APP:IND STUDY2</td>
+                    <td>5</td>
+                    <td class="A">100</td>
+                    <td class="A">100</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>CALCULUS BC AP</td>
+                    <td>6</td>
+                    <td class="A">94</td>
+                    <td class="A">96</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>ECO FREE AP</td>
+                    <td>7</td>
+                    <td class="F">29</td>
+                    <td class="F">32 (1)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
