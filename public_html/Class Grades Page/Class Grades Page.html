@@ -6,8 +6,9 @@
         <script src="../../vendor/jquery/jquery.js"></script>
         <script src="../../vendor/jqueryui/jquery-ui.js"></script>
         <link rel="stylesheet" href="../Global%20Style.css" type="text/css"/>
-        <link rel="stylesheet" href="Grades%20Page%20Style.css" type="text/css"/>
+        <link rel="stylesheet" href="Class%20Grades%20Style.css" type="text/css"/>
         <script src="../Global%20Script.js"></script>
+        <script src="Class%20Grades%20Script.js"></script>
         <title>GradeSpeedPlus</title>
         <meta charset="UTF-8">
     </head>
@@ -52,10 +53,202 @@
             <p class="notifications">A new grade has been added: Stucky - Scholarship Essay : 100%</p>
         </div>
         <div class="gradescontainer">
-            <div id="homework"></div>
-            <div id="major"></div>
-            <div id="minor"></div>
-            <div id="nonGraded"></div>
+            <table id="homework" class="gradetable">
+                <thead>
+                    <tr>
+                        <td>Assignment</td>
+                        <td>Assigned</td>
+                        <td>Due</td>
+                        <td>Points Earned</td>
+                        <td>Points Possible</td>
+                        <td>Percentage Grade</td>
+                        <td>Note</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="DataRow A">
+                        <td class="AssignmentName">Limits HW Day #1</td>
+                        <td class="DateAssigned">Aug-26</td>
+                        <td class="DateDue">Aug-27</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRowAlt B">
+                        <td class="AssignmentName">Limits HW Day #2</td>
+                        <td class="DateAssigned">Aug-26</td>
+                        <td class="DateDue">Aug-27</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRow" C>
+                        <td class="AssignmentName">Limits HW Day #3</td>
+                        <td class="DateAssigned">Aug-27</td>
+                        <td class="DateDue">Aug-28</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRowAlt">
+                        <td class="AssignmentName">Section 1.4 HW</td>
+                        <td class="DateAssigned">Aug-28</td>
+                        <td class="DateDue">Aug-29</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRow">
+                        <td class="AssignmentName">Section 2.1 Day #1 HW</td>
+                        <td class="DateAssigned">Sep-05</td>
+                        <td class="DateDue">Sep-08</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRowAlt">
+                        <td class="AssignmentName">Section 2.1 Day #2 HW</td>
+                        <td class="DateAssigned">Sep-08</td>
+                        <td class="DateDue">Sep-09</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRow">
+                        <td class="AssignmentName">Section 2.1 Day #3 HW</td>
+                        <td class="DateAssigned">Sep-09</td>
+                        <td class="DateDue">Sep-10</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRowAlt">
+                        <td class="AssignmentName">Section 2.1 Day #4 HW</td>
+                        <td class="DateAssigned">Sep-10</td>
+                        <td class="DateDue">Sep-11</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRow">
+                        <td class="AssignmentName">Section 2.2 HW</td>
+                        <td class="DateAssigned">Sep-16</td>
+                        <td class="DateDue">Sep-17</td>
+                        <td class="AssignmentGrade">8</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"> (Retake) (Late)</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRowAlt">
+                        <td class="AssignmentName">Section 2.3 HW Day #1</td>
+                        <td class="DateAssigned">Sep-17</td>
+                        <td class="DateDue">Sep-18</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRow">
+                        <td class="AssignmentName">Section 2.3 HW Day #2</td>
+                        <td class="DateAssigned">Sep-18</td>
+                        <td class="DateDue">Sep-19</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRowAlt">
+                        <td class="AssignmentName">Section 2.4 HW</td>
+                        <td class="DateAssigned">Sep-19</td>
+                        <td class="DateDue">Sep-22</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRow">
+                        <td class="AssignmentName">Derivatives Practice HW</td>
+                        <td class="DateAssigned">Sep-22</td>
+                        <td class="DateDue">Sep-23</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRowAlt">
+                        <td class="AssignmentName">Section 2.5 HW Day #1</td>
+                        <td class="DateAssigned">Sep-25</td>
+                        <td class="DateDue">Sep-26</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRow">
+                        <td class="AssignmentName">Section 2.5 HW Day #2</td>
+                        <td class="DateAssigned">Sep-26</td>
+                        <td class="DateDue">Sep-29</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRowAlt">
+                        <td class="AssignmentName">Section 2.6 Day #1 HW</td>
+                        <td class="DateAssigned">Sep-29</td>
+                        <td class="DateDue">Sep-30</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="DataRow">
+                        <td class="AssignmentName">Section 2.6 Day #2 HW</td>
+                        <td class="DateAssigned">Sep-30</td>
+                        <td class="DateDue">Oct-01</td>
+                        <td class="AssignmentGrade">10</td>
+                        <td class="AssignmentPointsPossible">10</td>
+                        <td class="PercentageGrade"></td>
+                        <td class="AssignmentNote"></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>Average</td>
+                        <td>98.82</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="major"></table>
+            <table id="minor"></table>
+            <table id="nonGraded"></table>
         </div>
     </body>
 </html>

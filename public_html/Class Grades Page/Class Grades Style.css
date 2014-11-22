@@ -1,6 +1,4 @@
-/*----------------Classes----------------------*/
-
-.classescontainer {
+.gradescontainer {
     position: relative;
     width: 95vw;
     top: 10vh;
@@ -12,7 +10,7 @@
     transition: all .3s ease-in-out;
 }
 
-#classes {
+.gradetable {
     border: solid .2vw rgba(0, 0, 0, .5);
     width: 95vw;
     background-color: rgba(0,0,0,.3);
@@ -26,21 +24,8 @@
     font-size: 2vw;
 }
 
-#classes td {
-    height: 5vw;
+.gradetable td {
+    height: 3vw;
     vertical-align: middle;
     border: solid .2vw rgba(0, 0, 0, .5);
-}
-
-#classes td:not(:nth-child(1)) {
-    text-align: center;
-    width: 6vw;
-}
-
-#classes td:nth-child(1) {
-    width: 25vw;
-}
-
-#classes thead tr:nth-child(1) {
-    text-align: center;
 }

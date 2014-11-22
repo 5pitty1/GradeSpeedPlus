@@ -59,8 +59,7 @@ table {
 
 html {
     height: 100vh;
-    background: url(Images/Coloful%20Background.jpg);
-    background-size: cover;
+    background: url(Images/Coloful%20Background.jpg) scroll;
 }
 
 body {
@@ -191,6 +190,7 @@ input:hover {
     font-family: "Calibri", sans-serif;
     font-size: 3vw;
     color: rgba(200, 200, 200, .8);
+    z-index: 1000;
 }
 
 /*---------------- Grades ----------------------*/
@@ -206,4 +206,13 @@ input:hover {
 }
 .F {
     background: rgba(255, 0, 0, 0.30);
+}
+
+table {
+    border-collapse: separate;
+}
+
+.small {
+    transform: translate(19vw, 0);
+    width: 77vw !important;
 }
