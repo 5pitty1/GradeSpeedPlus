@@ -6,4 +6,7 @@ $(document).ready(function () {
     $('.sidebar').hover(function () {
         $('.notificationbar').toggleClass("shrink");
     });
+    $(window).scroll(function () {
+        $('.notificationbar').removeClass("enter");
+    });
 });
