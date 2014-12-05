@@ -8,6 +8,9 @@ $(document).ready(function () {
             grades(grade);
         });
     });
+    $('a').hover(function () {
+        $(this).parent().toggleClass('highlight');
+    })
 });
 
 function grades(x){

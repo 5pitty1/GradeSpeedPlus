@@ -196,16 +196,16 @@ input:hover {
 /*---------------- Grades ----------------------*/
 
 .A {
-    background: rgba(0, 255, 0, 0.30);
+    background: rgba(0, 255, 0, 0.30) !important;
 }
 .B {
-    background: rgba(225, 255, 0, 0.30);
+    background: rgba(225, 255, 0, 0.30) !important;
 }
 .C {
-    background: rgba(255, 71, 0, 0.30);
+    background: rgba(255, 71, 0, 0.30) !important;
 }
 .F {
-    background: rgba(255, 0, 0, 0.30);
+    background: rgba(255, 0, 0, 0.30) !important;
 }
 
 table {

@@ -44,3 +44,15 @@
 #classes thead tr:nth-child(1) {
     text-align: center;
 }
+
+.highlight {
+    opacity: .7;
+}
+
+a {
+    color: rgba(255, 255, 255, .6);
+}
+
+a:hover {
+    text-decoration: none;
+}
