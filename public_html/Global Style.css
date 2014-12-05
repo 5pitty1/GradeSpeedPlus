@@ -59,11 +59,13 @@ table {
 
 html {
     height: 100vh;
-    background: url(Images/Coloful%20Background.jpg) scroll;
+    background: url(Images/Coloful%20Background.jpg) fixed;
+    background-size: cover;
 }
 
 body {
     background-color: transparent;
+    overflow: hidden;
 }
 
 :focus {
